@@ -30,11 +30,11 @@ constexpr unsigned long kBootResetHoldMs = 3000UL;
 constexpr unsigned long kBootTapMinMs = 40UL;
 
 // --- Display: GC9A01 1.28" round 240×240 (SPI) ---
-constexpr gpio_num_t kDisplayPinRst = GPIO_NUM_0;
+constexpr gpio_num_t kDisplayPinRst = GPIO_NUM_9;
 constexpr gpio_num_t kDisplayPinCs = GPIO_NUM_7;
-constexpr gpio_num_t kDisplayPinDc = GPIO_NUM_10;
+constexpr gpio_num_t kDisplayPinDc = GPIO_NUM_8;
 constexpr gpio_num_t kDisplayPinMosi = GPIO_NUM_6;  // display SDA
-constexpr gpio_num_t kDisplayPinSclk = GPIO_NUM_9;  // display SCL
+constexpr gpio_num_t kDisplayPinSclk = GPIO_NUM_4;  // display SCL
 
 constexpr int kDisplayWidth = 240;
 constexpr int kDisplayHeight = 240;
