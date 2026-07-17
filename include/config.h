@@ -41,7 +41,7 @@ constexpr int kDisplayHeight = 240;
 
 constexpr uint32_t kDisplaySpiWriteHz = 40000000;
 // GC9A01 modules often need invert + BGR for correct black/green output
-constexpr bool kDisplayInvert = true;
+constexpr bool kDisplayInvert = false;
 constexpr bool kDisplayRgbOrder = false;
 
 // --- Radar center defaults (overridden via WiFi setup portal) ---
